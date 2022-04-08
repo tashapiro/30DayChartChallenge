@@ -81,7 +81,7 @@ kbj<-data.frame(
   name="Ketanji Borwn Jackson",
   born_died = NA,
   state = NA,
-  position = "Chief Justice",
+  position = "Associate Justice",
   succeeded = "Breyer",
   confirmed = as.Date('2022-04-07'),
   tenured = NA,
@@ -120,11 +120,10 @@ justices<-justices%>%
          party_group = case_when(party %in% c("Federalist","Whig","Unaffiliated")~"Other",
                                  TRUE ~party))
 
-
+#create factor
 justices$party_group<-factor(justices$party_group, levels=c("Democratic-Republican","Democratic","Republican","Other"))
 
-max(justices$y)
-
+#plot
 ggplot(data=justices, mapping=aes(x=x+1,y=y+1))+
   geom_point(size=12, aes(color=party_group), alpha=0.9)+
   scale_color_manual(values=c("#EBB027","#266DD3","#CC3333","grey"),
