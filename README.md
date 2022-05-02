@@ -20,7 +20,7 @@ Details on **2022 #30DayChartChallenge**:
 |  [1](D1)  | Part-To-Whole | Don't Sign Me Up For Romeo | Project Gutenberg      |
 |  [2](D2)  | Pictograms    | Supreme Court Justices     | Wikipedia              |
 |  [5](D5)  | Slopes        | Peloton Class Switch Up    | pelotonR (Peloton API) |
-| [17](D17) | Connections   | The Chart from The L Word  | The L Word fanwiki     |
+| [17](D17) | Connections   | The Chart from The L Word  | The L Word Fandom Wiki |
 
 ## Visualization Gallery
 
